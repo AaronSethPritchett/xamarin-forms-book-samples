@@ -1,4 +1,4 @@
-
+﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingModes.Windows", "BindingModes\BindingModes.Windows\BindingModes.Windows.csproj", "{ADF3DC75-4A06-45FE-88A0-2F21BA11213D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingModes", "BindingModes\BindingModes\BindingModes.csproj", "{3E2BE8FC-9DD2-4B5F-95C3-9249BBFA2021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BindingModes.MacOS", "BindingModes/BindingModes.MacOS/BindingModes.MacOS.csproj", "{77AF2A31-6C80-471E-9264-0CE06FD2F26B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -401,6 +403,54 @@ Global
 		{3E2BE8FC-9DD2-4B5F-95C3-9249BBFA2021}.Release|x64.Build.0 = Release|Any CPU
 		{3E2BE8FC-9DD2-4B5F-95C3-9249BBFA2021}.Release|x86.ActiveCfg = Release|Any CPU
 		{3E2BE8FC-9DD2-4B5F-95C3-9249BBFA2021}.Release|x86.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|Any CPU.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|Any CPU.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|ARM.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|ARM.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|iPhoneSimulator.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|x64.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|x64.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|x86.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Ad-Hoc|x86.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|Any CPU.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|Any CPU.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|ARM.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|ARM.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|iPhoneSimulator.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|x64.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|x64.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|x86.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.AppStore|x86.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|x64.Build.0 = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Debug|x86.Build.0 = Debug|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|ARM.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|iPhone.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|x64.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|x64.Build.0 = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|x86.ActiveCfg = Release|Any CPU
+		{77AF2A31-6C80-471E-9264-0CE06FD2F26B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
